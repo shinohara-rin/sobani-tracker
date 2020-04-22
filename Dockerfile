@@ -8,6 +8,6 @@ RUN yarn install
 
 COPY . .
 
-EXPOSE 3000
+EXPOSE 3000/udp
 
 CMD ["node", "app.js"]
